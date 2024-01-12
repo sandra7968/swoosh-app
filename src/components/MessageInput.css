@@ -3,7 +3,7 @@
     align-items: center;
     grid-template-columns: 5% 95%;
     margin-left: 20px;
-    background-color: aqua;
+    background-color: rgb(255, 170, 0);
 }
 
 .emoji-picker-react{
@@ -12,9 +12,7 @@
     left: 460px;
     
 }
-.epr_mw4zr1 {
-    position: absolute !important;
-}
+
 
 .input-container{
     display: flex;
