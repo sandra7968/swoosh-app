@@ -20,7 +20,7 @@ function MessageInput({handleMsgSend}) {
   return (
    
 
-    <div className='main-Container d-flex '>
+    <div className='main-Container '>
       <div className="button-container">
         <div className="emoji">
         <i
