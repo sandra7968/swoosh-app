@@ -1,0 +1,55 @@
+.contactContainer{
+    display: grid;
+    grid-template-rows:  12%  77% 11%;
+    overflow: hidden;
+    background-color: #292929;
+    
+}
+
+.contactContainer .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    gap: 0.8rem;
+    background-color: #CACACA;
+    padding: 10px 0px;
+
+}
+
+.contactContainer .contacts .contact{
+    background-color: #c1c0be;
+    min-height: 5rem;
+    width: 90%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    border-radius: 0.3rem;
+}
+.contactContainer .contacts .contact .avatar img{
+    height: 3.5rem;
+}
+
+.contactContainer .current-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+
+}
+
+.contactContainer .current-user img{
+    height: 4rem;
+    max-inline-size: 100%;
+    margin-left: 10px;
+}
+
+
+
+.contactContainer .contacts .selected {
+    background-color: #7d7c80;
+    color: white;
+  }

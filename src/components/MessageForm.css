@@ -1,0 +1,81 @@
+.msg-container{
+    display: grid;
+  grid-template-rows: 12% 75% 10%;
+  gap: 0.1rem;
+  overflow: hidden;
+  
+}
+
+.msg-container .chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    background-color: rgb(197, 194, 194);
+}
+
+.msg-container .chat-header .user-details{
+ display: flex;
+ align-items: center;
+ gap: 1rem;   
+}
+
+.msg-container .chat-header .user-details .avatar img{
+    height: 3rem;
+}
+
+.chat-messages{
+    padding: 1rem 2rem;
+  
+    gap: 1rem;
+    max-height: 100%;
+    overflow: scroll;
+}
+.chat-messages::-webkit-scrollbar{
+    width:  0.2rem;
+
+}
+.chat-messages::-webkit-scrollbar-thumb{
+    width: 0.1rem;
+    border-radius: 1rem;
+}
+.chat-messages .message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.chat-messages .message .content{
+    max-width: 40%;
+    overflow-wrap: break-word;
+    padding: 15px 10px 0 10px;
+    font-size: 18px;
+    border-radius: 1.2rem;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.chat-messages .message .content::first-letter{
+    text-transform: capitalize;
+}
+.chat-messages .send{
+    justify-content: flex-end;
+}
+
+.chat-messages .send .content{
+    background-color: rgb(221, 208, 195);
+    color: rgb(53, 51, 51);
+}
+
+.chat-messages .recieved{
+    justify-content: flex-start;
+}
+
+.chat-messages .recieved .content{
+    background-color: rgb(141, 129, 118);
+    color: white;
+}

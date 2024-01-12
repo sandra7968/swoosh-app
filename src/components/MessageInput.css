@@ -1,0 +1,19 @@
+.main-Container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5% 95%;
+    margin-left: 20px;
+
+}
+.emoji-picker-react{
+    position: absolute;
+    top: 170px;
+    
+}
+.input-container{
+    display: flex;
+
+}
+.msg-input{
+    width: 800px;
+}
