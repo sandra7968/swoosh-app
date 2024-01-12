@@ -35,10 +35,7 @@
     width:  0.2rem;
 
 }
-.chat-messages::-webkit-scrollbar-thumb{
-    width: 0.1rem;
-    border-radius: 1rem;
-}
+
 .chat-messages .message{
     display: flex;
     align-items: center;

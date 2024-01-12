@@ -16,6 +16,10 @@
     padding: 10px 0px;
 
 }
+.contactContainer .contacts::-webkit-scrollbar{
+    width: 0.2rem;
+    
+}
 
 .contactContainer .contacts .contact{
     background-color: #c1c0be;

@@ -11,13 +11,13 @@
     align-items: center;
     grid-template-columns: 5% 95%;
     margin-left: 20px;
-    z-index: 1; 
 
 }
+
 .emoji-picker-react{
     position: absolute;
-    top: 170px;
-    height: 500px;
+    top: 180px;
+    left: 460px;
     
 }
 .input-container{
