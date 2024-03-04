@@ -28,7 +28,8 @@ function MessageInput({handleMsgSend}) {
                   onClick={handleEmojiPicker}
                   className="fa-solid fa-face-smile fa-2x text-warning"
                 ></i>
-          {showEmojiPicker && <Picker className='emoji-picker-react' onEmojiClick={(emojiObject)=>setMsg((prevMsg)=>prevMsg+emojiObject.emoji)} />}
+                
+          {showEmojiPicker && <div className='emoji-container'><Picker className='emoji-picker-react' onEmojiClick={(emojiObject)=>setMsg((prevMsg)=>prevMsg+emojiObject.emoji)} /></div>}
         </div>
       </div>
       <form className="input-container" onSubmit={(e) => sendChat(e)}>

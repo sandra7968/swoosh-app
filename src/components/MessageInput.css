@@ -5,10 +5,13 @@
     margin-left: 20px;
 }
 
-.emoji-picker-react{
+.emoji-container{
     position: absolute;
     top: 180px;
     left: 460px;
+    z-index: 2;
+    
+
     
 }
 
